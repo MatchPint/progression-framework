@@ -9,9 +9,10 @@ export const LANDSCAPE = 'min-aspect-ratio: 13/9'
 export const BREAKPOINT_MOBILE = 736
 export const BREAKPOINT_TABLET = 1024
 export const BREAKPOINT_DESKTOP = 1300
-export const MIDNIGHT_SKY = '#14233c'
-export const LAGOON_BLUE = '#145d8e'
-export const GREY_BLUE = '#707b8c'
+export const MIDNIGHT_SKY = '#000'
+export const LAGOON_BLUE = '#fed900'
+export const GREY_BLUE = '#fed900'
+export const YELLOW = '#fed900'
 
 // Styles
 // Error page
@@ -34,7 +35,7 @@ export const ErrorPageLink = styled(Link)`
 
 export const Card = styled.div`
   position: relative;
-  background: #fefefe;
+  background: #fff;
   border-radius: 8px;
   box-shadow: 0 0 2em 0.1em rgba(0, 0, 0, 0.1);
   padding: 1.3em;
@@ -106,7 +107,7 @@ export const DefaultStyledLink = styled(Link)`
   }
   &.active {
     border-radius: 10px;
-    background: #eeefee;
+    background: #fed900;
   }
 `
 
@@ -133,7 +134,7 @@ export const StyledLink = styled(PartialNavLink)`
   }
   &.active {
     border-radius: 10px;
-    background: #eeefee;
+    background: #fed900;
   }
 `
 
@@ -340,8 +341,8 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  background-color: #f7f7f7;
-  color: black;
+  background-color: #fed900;
+  color: #000;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;

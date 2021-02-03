@@ -34,7 +34,7 @@ module.exports = {
         background_color: '#14233c',
         theme_color: '#14233c',
         display: 'minimal-ui',
-        icon: 'src/images/index.ico',
+        icon: 'src/images/mp-logo.png',
       },
     }
   ],

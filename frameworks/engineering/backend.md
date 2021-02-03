@@ -200,7 +200,6 @@ topics:
           - criteria: "Writes idiomatic PHP code"
             examples:
               - "Follows the guidelines in PSR (https://www.php-fig.org/psr) and writes clean code."
-            examples:
               - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
           - criteria: "Implements complex RPC handlers"
             examples:

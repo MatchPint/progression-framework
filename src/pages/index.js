@@ -40,12 +40,6 @@ export default class Index extends React.Component<Props> {
               around here!
             </DescriptionText>
             <DescriptionText>
-              This site, along with all our progression frameworks, are open
-              source. That means you can contribute to the development of this
-              site or our progression frameworks, and use both as inspiration
-              for your own projects!
-            </DescriptionText>
-            <DescriptionText>
               Take a look around and let us know what you think! 🚀
             </DescriptionText>
           </Description>

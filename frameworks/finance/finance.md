@@ -1,7 +1,7 @@
 ---
 path: "/finance/finance"
-title: "🕵🏽‍♂️ Finance Framework"
-sidebarTitle: "🕵🏽‍♂️ Finance"
+title: "💰 Finance Framework"
+sidebarTitle: "💰 Finance"
 sidebarGroup: "finance"
 yaml: true
 levels: 1
